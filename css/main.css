@@ -110,7 +110,7 @@ header .hero-section figure img {
 
 /* Start services style */
 .services-section {
-  background-image: url("./img/service-background.png");
+  background-image: url("../img/service-background.png");
   background-repeat: no-repeat;
   background-position: -30% 50%;
 }
