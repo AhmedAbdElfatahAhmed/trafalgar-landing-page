@@ -1,0 +1,214 @@
+/* Start General styles */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Small Screen Rules  */
+  .container {
+    width: 540px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Medium Screen Rules  */
+  .container {
+    width: 720px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Large Screen Rules  */
+  .container {
+    width: 960px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /* X-Large Screen Rules  */
+  .container {
+    width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  /* XX-Large Screen Rules  */
+  .container {
+    width: 1320px;
+  }
+}
+/* End  General styles */
+
+/* Start header style */
+@media (max-width: 767px) {
+  header nav ul {
+    flex-direction: column;
+    background-color: var(--main-color);
+    padding: 25px 25px 25px 0px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-top: 25px;
+  }
+  header nav ul li {
+    margin-top: 20px;
+    color: var(--white-color);
+  }
+  header .hero-section .hero-wraper h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  header nav {
+    margin-bottom: 0;
+  }
+  .hero-section .hero-wraper button {
+    margin-bottom: 40px;
+  }
+  .heading-border-bottom {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 991px) {
+  header .hero-section figure {
+    width: 100%;
+  }
+  header .hero-section .hero-wraper {
+    width: 100%;
+  }
+}
+/* End header style */
+
+/* Start services style */
+@media (max-width: 1199px) {
+  .services-section .services .serv {
+    width: 45%;
+  }
+  .services-section {
+    background-image: url("");
+  }
+}
+@media (max-width: 575px) {
+  .services-section .services .serv {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .services-section .services .serv {
+    text-align: center;
+  }
+  .services-section button {
+    margin-bottom: 100px;
+  }
+}
+/* End services style */
+
+/* Start leading-healthcare style &  mobil-app-section style sections*/
+@media (max-width: 991px) {
+  .leading-healthcare-section figure,
+  .mobil-app-section figure {
+    width: 100%;
+  }
+  .leading-healthcare-section .leading-info,
+  .mobil-app-wrapper .info {
+    width: 100%;
+  }
+  .mobil-app-section figure img {
+    margin-bottom: 100px;
+  }
+  .leading-healthcare-section figure {
+    order: 1;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .info button {
+    margin-bottom: 100px;
+  }
+}
+/* End leading-healthcare style &  mobil-app-section style sections*/
+
+/* Start customer-section style */
+@media (max-width: 767px) {
+  .customer-section .slider-controls .left-arrow img,
+  .customer-section .slider-controls .right-arrow img,
+  .customer-section .slider-controls .dots,
+  .customer-container .customer-card .dot-layer.left,
+  .customer-container .customer-card .dot-layer.right {
+    display: none;
+  }
+  .customer-container .customer-card figure {
+    flex-direction: column;
+  }
+  .customer-container .customer-card figure img {
+    margin-bottom: 15px;
+  }
+  .customer-container .customer-card {
+    padding-right: 35px;
+    padding-left: 15px;
+  }
+  .leading-info button {
+    margin-bottom: 100px;
+  }
+  .customer-container .customer-info .text p {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .customer-card .customer-info {
+    flex-wrap: wrap;
+  }
+  .customer-container .customer-card figure {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .customer-container .customer-info .text {
+    width: 100%;
+  }
+}
+@media (max-width: 1199px) {
+  .customer-container .customer-card .dot-layer.right {
+    right: -20px;
+  }
+}
+/* End customer-section style */
+
+/* Start check-out style */
+@media (max-width: 1199px) {
+  .check-out-section .check-out-cards .card {
+    width: 45%;
+  }
+}
+@media (max-width: 767px) {
+  .check-out-section .bg-img {
+    display: none;
+  }
+  .check-out-section button {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 575px) {
+  .check-out-section .check-out-cards .card {
+    width: 100%;
+  }
+}
+/* End check-out style */
+
+/* Start footer style */
+@media (max-width: 767px) {
+  .footer-info div {
+    width: 100%;
+    text-align: center;
+  }
+  .copyright {
+    display: none;
+  }
+  .copyright-mobile {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 1.5;
+  }
+}
+@media (min-width: 768px) {
+  .copyright {
+    display: block;
+  }
+  .copyright-mobile {
+    display: none;
+  }
+}
+/* End footer style */
